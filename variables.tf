@@ -13,5 +13,38 @@ variable "enviroment" {
   type        = string
 }
 
+# vps variables
+variable "vpc_cidr" {
+  description = "vpc cidr block"
+  type        = string
+}
 
+variable "public_subnet_cidr_az1" {
+  description = "public subnet cidr block az1"
+  type        = string
+}
 
+variable "public_subnet_cidr_az2" {
+  description = "public subnet cidr block az2"
+  type        = string
+}
+
+variable "private_app_subnet_cidr_az1" {
+  description = "private app subnet cidr block az1"
+  type        = string
+}
+
+variable "private_app_subnet_cidr_az2" {
+  description = "private app subnet cidr block az2"
+  type        = string
+}
+
+variable "private_data_subnet_cidr_az1" {
+  description = "private data subnet cidr block az1"
+  type        = string
+}
+
+variable "private_data_subnet_cidr_az2" {
+  description = "private data subnet cidr block az2"
+  type        = string
+}
